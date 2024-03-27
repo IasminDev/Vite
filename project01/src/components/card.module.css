@@ -6,8 +6,15 @@
     justify-content: center;
     gap: 1em;
     padding: 2em;
-    width: 170px;
+    width: 200px;
     height: auto;
     border-radius: 30px;
     box-shadow: var(--shadow);
+    background-color: var(--bg-02);
+    color: var(--text-color-02);
+}
+.imgCard{
+    width: 100px;
+    height: auto;
+    border-radius: 10px;
 }

@@ -4,6 +4,9 @@
   --text-color: #dde6ed;
   --text-color-02: #071952;
   --shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+  --dead-color: ;
+  --alive-color: ;
+  --unknown-color: ;
 }
 
 *{
@@ -21,4 +24,44 @@ body{
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+}
+
+button{
+  padding: 10px 20px;
+  border-radius: 30px;
+  box-shadow: var(--shadow);
+  color: var(--text-color-02);
+  background-color: var(--bg-02);
+  border: 1px solid var(--text-color-02);
+  opacity: 0.8;
+  transition: all 200ms linear;
+}
+button:hover{
+  opacity: 1;
+  transition: all 200ms linear;
+  cursor: pointer;
+}
+input{
+  width: 150px;
+  height: 20px;
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  color: var(--text-color-02);
+  background-color: var(--bg-02);
+  border: none;
+  opacity: 0.8;
+  transition: all 200ms linear;
+}
+input:hover{
+  opacity: 1;
+  transition: all 200ms linear;
+  cursor: pointer;
+}
+textarea{
+  min-width: 250px;
+  min-height: 60px;
+  border-radius: 5px;
+  box-shadow: var(--shadow);
+  color: var(--text-color-02);
+  background-color: var(--bg-02);
 }

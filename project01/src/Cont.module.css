@@ -1,7 +1,29 @@
 .wrapContainer{
     padding-top: 70px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 3em;
+}
+.wrapDivs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.wrapMap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    width: 500px;
+    height: 400px;
+}
+.wrapMessage{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2em;
 }

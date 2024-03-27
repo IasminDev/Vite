@@ -1,7 +1,18 @@
 .wrapContainer{
     padding-top: 70px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    gap: 2em;
+}
+.wrapInput{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    gap: 2em;
 }
