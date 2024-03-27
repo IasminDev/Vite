@@ -1,0 +1,39 @@
+:root{  
+  --background: #212121;
+  --text-color: #fdfaf0;
+  --shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: var(--background);
+  color: var(--text-color);
+  width: 100vw;
+  height: auto;
+  overflow-x: hidden;
+}
+a,p{
+  font-family: "Roboto Mono", monospace;
+  align-items: center;
+}
+h1,h2,h3,h4,h5{
+  font-family: "Gemunu Libre", sans-serif;
+}
+button{
+  opacity: 0.8;
+}
+button:hover{
+  opacity: 1;
+  cursor: pointer;
+}
+.leaflet-control-attribution{
+  display: none;
+}
+.leaflet-top{
+  z-index: 888;
+}

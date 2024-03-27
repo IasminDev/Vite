@@ -1,0 +1,26 @@
+.menuWrap{
+    background-color: var(--bg-02);
+    box-shadow: var(--shadow);
+    height: auto;
+    width: 100%;
+    padding: 0.5em;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+a{
+    color: var(--text-color-02);
+    text-decoration: none;
+    opacity: 0.5;
+    transition: all 200ms linear;
+}
+a:hover{
+    opacity: 1;
+    transition: all 200ms linear;
+    transform: scale(1.1);
+    cursor: pointer;
+}

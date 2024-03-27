@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name": "Tea",
+        "desc": "A soothing and aromatic infusion, perfect for a moment of relaxation or a morning pick-me-up.",
+        "value": 4.90,
+        "image": "../../src/assets/images/tea.png"
+    },
+    {
+        "id": 2,
+        "name": "Latte",
+        "desc": "Smooth espresso combined with steamed milk, creating a creamy and comforting beverage.",
+        "value": 6.50,
+        "image": "../../src/assets/images/latte.png"
+    },
+    {
+        "id": 3,
+        "name": "Iced Coffee",
+        "desc": "Refreshing and energizing, a chilled concoction of coffee over ice, ideal for warmer days.",
+        "value": 12.50,
+        "image": "../../src/assets/images/iced-coffee.png"
+    },
+    {
+        "id": 4,
+        "name": "Avocado Toast",
+        "desc": "A trendy and nutritious dish featuring creamy avocado spread atop toasted bread, often garnished with various toppings like tomatoes, feta cheese, or poached eggs.",
+        "value": 16.90,
+        "image": "../../src/assets/images/avocado-toast.png"
+    },
+    {
+        "id": 5,
+        "name": "Sandwich",
+        "desc": "A classic meal option, consisting of layers of ingredients such as deli meats, cheeses, vegetables, and spreads, nestled between slices of bread.",
+        "value": 14.90,
+        "image": "../../src/assets/images/sandwich.png"
+    },
+    {
+        "id": 6,
+        "name": "Egg Toast",
+        "desc": "A simple yet satisfying dish showcasing perfectly cooked eggs atop toasted bread, versatile enough to be enjoyed for breakfast, brunch, or even a quick snack.",
+        "value": 18.90,
+        "image": "../../src/assets/images/egg-toast.png"
+    },
+    {
+        "id": 7,
+        "name": "Pancake",
+        "desc": "Fluffy, golden-brown delights served with a variety of toppings such as syrup, berries, or whipped cream, making for a delightful breakfast or indulgent treat.",
+        "value": 20.50,
+        "image": "../../src/assets/images/pancake.png"
+    },
+    {
+        "id": 8,
+        "name": "Vegan Yogurt",
+        "desc": "Creamy and dairy-free, made from plant-based ingredients like soy, almond, or coconut milk, offering a guilt-free alternative to traditional yogurt.",
+        "value": 16.90,
+        "image": "../../src/assets/images/vegan-yogurt.png"
+    },
+    {
+        "id": 9,
+        "name": "Chocolate Cheesecake",
+        "desc": "Decadent and indulgent, a rich dessert featuring a velvety-smooth blend of chocolate and cream cheese atop a buttery biscuit crust, sure to satisfy any sweet tooth craving.",
+        "value": 24.90,
+        "image": "../../src/assets/images/chocolate-cheesecake.png"
+    }
+]

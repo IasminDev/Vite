@@ -1,0 +1,48 @@
+.wrapContainer{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+.wrapTwoDivs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.wrapMap{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+    width: 500px;
+    height: 400px;
+}
+.wrapMessage{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+input{
+    min-width: 300px;
+    height: 30px;
+    border-radius: 10px;
+}
+textarea{
+    min-height: 60px;
+    border-radius: 10px;
+    min-width: 300px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 30px;
+    box-shadow: var(--shadow);
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    background-color: var(--background);
+}

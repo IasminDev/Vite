@@ -1,0 +1,24 @@
+:root{  
+  --bg: #27374d;
+  --bg-02: #9db2bf;
+  --text-color: #dde6ed;
+  --text-color-02: #071952;
+  --shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: var(--bg);
+  color: var(--text-color);
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

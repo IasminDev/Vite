@@ -1,0 +1,13 @@
+.cardWrap{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    padding: 2em;
+    width: 170px;
+    height: auto;
+    border-radius: 30px;
+    box-shadow: var(--shadow);
+}
