@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,        
+        "heightCard": "350px",
+        "widthImg": "100px",
+        "srcImg": "../../src/assets/react.svg",
+        "title": "React",
+        "desc": "A JavaScript library for building user interfaces, allowing developers to create interactive web applications efficiently."
+    },
+    {
+        "id": 2,
+        "heightCard": "350px",
+        "widthImg": "100px",
+        "srcImg": "../../public/vite.svg",
+        "title": "Vite",
+        "desc": "A fast, modern build tool that aims to provide a lightning-fast development experience for web projects, especially those using modern JavaScript frameworks like React."
+    },
+    {
+        "id": 3,
+        "heightCard": "350px",
+        "widthImg": "150px",
+        "srcImg": "../../src/assets/axios.png",
+        "title": "Axios",
+        "desc": "A promise-based HTTP client for making asynchronous HTTP requests in JavaScript environments, commonly used for fetching data from APIs in web applications."
+    },
+    {
+        "id": 4,
+        "heightCard": "350px",
+        "widthImg": "150px",
+        "srcImg": "../../src/assets/router-dom.png",
+        "title": "React Router Dom",
+        "desc": "A routing library for React applications, enabling developers to manage navigation and rendering of components based on the URL."
+    },
+    {
+        "id": 5,
+        "heightCard": "350px",
+        "widthImg": "150px",
+        "srcImg": "../../src/assets/npm.png",
+        "title": "Npm",
+        "desc": "The package manager for JavaScript, used to discover, share, and install packages of code from the npm registry, allowing developers to easily manage dependencies in their projects."
+    },
+    {
+        "id": 6,
+        "heightCard": "350px",
+        "widthImg": "150px",
+        "srcImg": "../../src/assets/node.png",
+        "title": "Node.js",
+        "desc": "A JavaScript runtime built on Chromes V8 JavaScript engine, enabling developers to run JavaScript code outside of a web browser, commonly used for building server-side applications and APIs."
+    }
+]

@@ -4,9 +4,9 @@
   --text-color: #dde6ed;
   --text-color-02: #071952;
   --shadow: rgba(0,0,0,0.24) 0px 3px 8px;
-  --dead-color: ;
-  --alive-color: ;
-  --unknown-color: ;
+  --dead-color: #ba3333;
+  --alive-color: #235e17;
+  --unknown-color: #444444;
 }
 
 *{
@@ -64,4 +64,10 @@ textarea{
   box-shadow: var(--shadow);
   color: var(--text-color-02);
   background-color: var(--bg-02);
+}
+.leaflet-control-attribution{
+  display: none;
+}
+.leaflet-top{
+  z-index: 888;
 }

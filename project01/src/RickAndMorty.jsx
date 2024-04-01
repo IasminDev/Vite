@@ -43,10 +43,13 @@ export const RaM = () => {
             return(
               <div key={item.id}>
                 <Card
+                  heightCard = '300px'
                   srcImg={item.image}
                   title={item.name}
                   desc={item.status}
-                  batata='red'
+                  statusColor={item.status === 'Alive' ? 'var(--alive-color)' 
+                              : item.status === 'Dead' ? 'var(--dead-color)' 
+                              : 'var(--unknown-color)'}
                 />
               </div>
             )

@@ -1,6 +1,8 @@
 .wrapContainer{
-    padding-top: 70px;
+    padding-left: 100px;
+    padding-top: 50px;
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
