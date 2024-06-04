@@ -9,7 +9,7 @@ import style from './Cont.module.css'
 
 export const Cont = () =>{
   const geoData = ({lat:-25.4249668, lng:-49.2748863})
-  const defaulNumber = '5541995459952'
+    const defaulNumber = '5141999999999'
   const [formData, setFormData] = useState({
     name: '',
     email: '',
